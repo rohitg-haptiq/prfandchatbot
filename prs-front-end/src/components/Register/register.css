@@ -1,0 +1,15 @@
+.register {
+}
+.main {
+  height: calc(100vh - 70px);
+  background-color: rgb(225, 228, 233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.about {
+  background-image: url("./about.jpg");
+  color: black;
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image in place while scrolling */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}

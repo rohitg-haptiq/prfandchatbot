@@ -1,0 +1,13 @@
+/* .header {
+  background-color: black;
+} */
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(222, 185, 185);
+}
+.logo span {
+  color: rgb(77, 37, 37);
+  font-size: 30px;
+}

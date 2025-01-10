@@ -1,0 +1,25 @@
+.back {
+  background-image: url("./partnerback.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 50px;
+
+  /* background-color: red; */
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(114, 187, 250);
+  padding-left: 50px;
+  text-align: left;
+}
+
+p {
+  color: white;
+  padding-left: 50px;
+}
