@@ -17,9 +17,11 @@ import { AuthProvider } from "./context/isLogedInContext";
 import About from "./components/About/About";
 import Myleads from "./components/Myleads/Myleades";
 
+import LeadDetails from "./components/Myleads/LeadsDetails";
+
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <Layout />,
     children: [
       { path: "", element: <Home /> },
@@ -32,6 +34,10 @@ const router = createBrowserRouter([
       { path: "/profile", element: <Profile /> },
       { path: "/about", element: <About /> },
       { path: "/myleads", element: <Myleads /> },
+      {
+        path: "/details",
+        element: <LeadDetails />,
+      },
     ],
   },
 ]);
