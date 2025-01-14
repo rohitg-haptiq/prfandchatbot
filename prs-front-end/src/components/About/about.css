@@ -1,5 +1,5 @@
 .about {
-  background-image: url("./about.jpg");
+  background-color: rgb(87, 84, 84);
   color: black;
   background-size: cover; /* Ensures the image covers the whole screen */
   background-position: center center; /* Centers the image */

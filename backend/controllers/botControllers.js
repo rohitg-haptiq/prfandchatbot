@@ -15,7 +15,7 @@ exports.sendmail = async (req, res) => {
     to: "rohitghate29@gmail.com",
     subject: "hi how are you",
     text: "i am fine",
-  });
+  }); 
 
   res.staus(200).jason({ message: "mail sent" });
 };
